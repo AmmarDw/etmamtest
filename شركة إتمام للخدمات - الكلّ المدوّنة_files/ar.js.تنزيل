@@ -1,0 +1,777 @@
+(function(global){var Language = {};
+
+Language.pluralFormFunction = function(n){
+		var mod100 = n % 100;
+
+		if (n === 0) {
+			return 'zero';
+		}
+
+		if (n === 1) {
+			return 'one';
+		}
+
+		if (n === 2) {
+			return 'two';
+		}
+
+		if (mod100 >= 3 && mod100 <= 10) {
+			return 'few';
+		}
+
+		if (mod100 >= 11 && mod100 <= 99) {
+			return 'many';
+		}
+
+		return 'other';
+	};
+
+
+Language.bubble = Language.bubble || {};
+
+Language.bubble.attention_grabber = {
+	"message": "الدردشة الملفتة للإنتباه"
+};
+
+
+Language.chat = Language.chat || {};
+
+Language.chat.Warning = {
+	"message": "تحذير"
+};
+Language.chat.accept_call = {
+	"message": "قبول"
+};
+Language.chat.active = {
+	"message": "نشط"
+};
+Language.chat.agent_profile_image = {
+	"message": "صورة الملف الشخصي للوكيل"
+};
+Language.chat.agent_ringing = {
+	"message": "مكالمة واردة"
+};
+Language.chat.all_conversations = {
+	"message": "شاهد جميع المحادثات."
+};
+Language.chat.call_end_details = {
+	"message": "بدأت في #startedOn واستمرت حتى #duration",
+	"vars": [
+		"startedOn",
+		"duration"
+	]
+};
+Language.chat.call_error_load = {
+	"message": "تعذر تحميل تفاصيل المكالمة."
+};
+Language.chat.call_started_on = {
+	"message": "بدأت في #startedOn",
+	"vars": [
+		"startedOn"
+	]
+};
+Language.chat.chatEnded = {
+	"message": "انتهت المحادثة"
+};
+Language.chat.chat_icon = {
+	"message": "أيقونة الدردشة"
+};
+Language.chat.chat_qm = {
+	"message": "دردشة؟"
+};
+Language.chat.chat_text = {
+	"message": "محادثة"
+};
+Language.chat.close_icon = {
+	"message": "أغلق الأيقونة"
+};
+Language.chat.completed_call = {
+	"message": "انتهت المكالمة"
+};
+Language.chat.conversation_ended_on = {
+	"message": "انتهت المحادثة في"
+};
+Language.chat.decline_call = {
+	"message": "رفض"
+};
+Language.chat.defaultName = {
+	"message": "أنت (أنقر هنا لتغيير الاسم)"
+};
+Language.chat.departmentIsAway = {
+	"message": "قسم #strongStart #departmentName #strongEnd بعيد حاليا.",
+	"vars": [
+		"departmentName",
+		"strongStart",
+		"strongEnd"
+	]
+};
+Language.chat.departmentIsOffline = {
+	"message": "قسم #strongStart #departmentName #strongEnd غير متصل حالياً. سيتم تحويلك إلى قسم آخر.",
+	"vars": [
+		"departmentName",
+		"strongStart",
+		"strongEnd"
+	]
+};
+Language.chat.download = {
+	"message": "تنزيل"
+};
+Language.chat.downloadFile = {
+	"message": "تنزيل الملف"
+};
+Language.chat.dragDropText = {
+	"message": "اسحب الملفات إلى هنا لتحميلها"
+};
+Language.chat.emoji_error_load = {
+	"message": "غير قادر على تحميل الرموز التعبرية"
+};
+Language.chat.error_title = {
+	"message": "خطأ"
+};
+Language.chat.failed = {
+	"message": "فشلت المحاولة"
+};
+Language.chat.generalUploadError = {
+	"message": "غير قادر على تحميل الملف \"#fileName\"، يرجى إعادة المحاولة.",
+	"vars": [
+		"fileName"
+	]
+};
+Language.chat.generalUploadErrorLabel = {
+	"message": "غير قادر على تحميل الملف"
+};
+Language.chat.goToLatest = {
+	"message": "اذهب إلى الأحدث"
+};
+Language.chat.hideButton = {
+	"message": "إخفاء الدردشة"
+};
+Language.chat.incoming_call_message = {
+	"message": "مكالمة واردة من #name",
+	"vars": [
+		"name"
+	]
+};
+Language.chat.insert_emoji = {
+	"message": "إدراج رمز تعبيري"
+};
+Language.chat.justNow = {
+	"message": "في هذه اللحظة"
+};
+Language.chat.limit2 = {
+	"message": "حجم الملف يجب أن يكون أصغر من 2 ميغابايت، يرجى تحميل ملف أصغر."
+};
+Language.chat.limit50 = {
+	"message": "حجم الملف يجب أن يكون أصغر من 50 ميغابايت، يرجى تحميل ملف أصغر حجماً."
+};
+Language.chat.message_not_delivered = {
+	"message": "لم يتم تسليم الرسالة، انقر هنا لإعادة إرسالها."
+};
+Language.chat.message_too_long = {
+	"message": "الرسالة لا يجب أن تتخطى الـ5000 حرف"
+};
+Language.chat.missed_agent = {
+	"message": "لم يتم الإجابة على مكالمتك"
+};
+Language.chat.missed_visitor = {
+	"message": "لقد فاتتك مكالمة"
+};
+Language.chat.missed_visitor_messagePreview = {
+	"message": "لقد فاتتك مكالمة من"
+};
+Language.chat.mobileName = {
+	"message": "أنت"
+};
+Language.chat.newChat = {
+	"message": "بدء محادثة جديدة"
+};
+Language.chat.newMessages = {
+	"message": "رسائل جديدة"
+};
+Language.chat.new_conversation = {
+	"message": "محادثة جديدة"
+};
+Language.chat.notificationTitle = {
+	"message": "تنبيه"
+};
+Language.chat.ongoing_call = {
+	"message": "مكالمة جارية"
+};
+Language.chat.past = {
+	"message": "منذ #time",
+	"vars": [
+		"time"
+	]
+};
+Language.chat.pasted_image_title = {
+	"message": "تم لصق الصورة في #dateTime",
+	"vars": [
+		"dateTime"
+	]
+};
+Language.chat.profile_prechat_text = {
+	"message": "يرجى تعبئة النموذج ادناه لبدء الدردشة معنا."
+};
+Language.chat.rejected_call = {
+	"message": "لقد رفضت هذه المكالمة"
+};
+Language.chat.remove_rate = {
+	"message": "قمت بإزالة تقييمك لهذه المحادثة"
+};
+Language.chat.resend = {
+	"message": "إعادة إرسال"
+};
+Language.chat.retry = {
+	"message": "إعادة المحاولة."
+};
+Language.chat.return_to_live_chat = {
+	"message": "العودة إلى الدردشة الحيّة"
+};
+Language.chat.say_something = {
+	"message": "أكتب هنا.."
+};
+Language.chat.screen_share_error = {
+	"message": "مشاركة الشاشة غير متاحة."
+};
+Language.chat.send_mail = {
+	"message": "أرسل بريد إلكتروني"
+};
+Language.chat.sent_file = {
+	"message": "أرسل الملف"
+};
+Language.chat.sent_form = {
+	"message": "Sent a form"
+};
+Language.chat.sent_suggested_message = {
+	"message": "Sent a suggested message"
+};
+Language.chat.today_time = {
+	"message": "اليوم، #time",
+	"vars": [
+		"time"
+	]
+};
+Language.chat.tryAgain = {
+	"message": "حاول مرة أخرى"
+};
+Language.chat.unanswered = {
+	"message": "دون جواب"
+};
+Language.chat.uploading = {
+	"message": "جاري التحميل..."
+};
+Language.chat.video_call_error = {
+	"message": "مكالمة فيديو غير متاحة"
+};
+Language.chat.visitor_ringing = {
+	"message": "جاري الاتصال"
+};
+Language.chat.voice_call_error = {
+	"message": "مكالمة صوتية غير متاحة"
+};
+Language.chat.we_are_live = {
+	"message": "نحن متصلون وعلى استعداد لخدمتك الآن. أكتب شيئاً لبدء الدردشة الحيّة."
+};
+
+
+Language.days = Language.days || {};
+
+Language.days['0'] = {
+	"message": "الأحد"
+};
+Language.days['1'] = {
+	"message": "الاثنين"
+};
+Language.days['2'] = {
+	"message": "الثلاثاء"
+};
+Language.days['3'] = {
+	"message": "الأربعاء"
+};
+Language.days['4'] = {
+	"message": "الخميس"
+};
+Language.days['5'] = {
+	"message": "الجمعة"
+};
+Language.days['6'] = {
+	"message": "السبت"
+};
+
+
+Language.form = Language.form || {};
+
+Language.form.CancelButton = {
+	"message": "إلغاء"
+};
+Language.form.CloseButton = {
+	"message": "إغلاق"
+};
+Language.form.DepartmentsErrorMessage = {
+	"message": "اختيار القسم إلزامي."
+};
+Language.form.DepartmentsPlaceholder = {
+	"message": "اختر قسماً.."
+};
+Language.form.EmailErrorMessage = {
+	"message": "عنوان البريد الإلكتروني غير صحيح."
+};
+Language.form.EmailPlaceholder = {
+	"message": "عنوان البريد الإلكتروني"
+};
+Language.form.EmailTranscriptFormMessage = {
+	"message": "يرجى تعبئة النموذج أدناه حتى نتمكن من إرسال هذه المحادثة إلى بريدك الإلكتروني."
+};
+Language.form.EmailTranscriptSuccess = {
+	"message": "إرسال طلب نسخ البريد الإلكتروني"
+};
+Language.form.EmailTranscriptTo = {
+	"message": "أرسل نسخة عن المحادثة إلى البريد الإلكتروني التالي:"
+};
+Language.form.EndChatMessage = {
+	"message": "شكراً للتحدث معنا. لا تتردّد في بدء جلسة دردشة جديدة أو إدخال بريدك الإلكتروني وإرسال نسخة من هذه المحادثة إلى بريدك الوارد."
+};
+Language.form.EndChatMessage2 = {
+	"message": "شكرا للتحدث معنا. لا تتردد في بدء جلسة دردشة جديدة."
+};
+Language.form.EndChatTitle = {
+	"message": "هل أنت متأكد من رغبتك في انهاء المحادثة؟"
+};
+Language.form.MessagePlaceholder = {
+	"message": "الرسالة الخاصة بك.."
+};
+Language.form.NameErrorMessage = {
+	"message": "يجب إدخال الاسم."
+};
+Language.form.NameFormMessage = {
+	"message": "يرجى تغيير إسمك حتى نتمكن من التعرف عليك في زيارتك المقبلة."
+};
+Language.form.OfflineFormMessage = {
+	"message": "يرجى تعبئة النموذج أدناه وسنتواصل معك في أقرب فرصة ممكنة."
+};
+Language.form.OfflineMessageNotSent = {
+	"message": "لم يتم تسليم الرسالة الخاصة بك، الرجاء إعادة المحاولة"
+};
+Language.form.OfflineMessageSent = {
+	"message": "تم إرسال رسالتك بنجاح!"
+};
+Language.form.PhoneErrorMessage = {
+	"message": "رقم الهاتف غير صحيح"
+};
+Language.form.PreChatFormMessage = {
+	"message": "يرجى تعبئة النموذج أدناه لتبدأ المحادثة مع أول وكيل متاح."
+};
+Language.form.PreChatFormMessageProfile = {
+	"message": "يرجى تعبئة النموذج أدناه لتبدء بالتحدث معي."
+};
+Language.form.QuestionPlaceholder = {
+	"message": "الإستفسار.."
+};
+Language.form.RequiredErrorMessage = {
+	"message": "هذا الحقل مطلوب"
+};
+Language.form.SaveButton = {
+	"message": "حفظ"
+};
+Language.form.SendButton = {
+	"message": "إرسال"
+};
+Language.form.SendMessage = {
+	"message": "أرسل الرسالة"
+};
+Language.form.StartChatButton = {
+	"message": "بدء الدردشة"
+};
+Language.form.SubmitButton = {
+	"message": "إرسال"
+};
+Language.form.SubmittedFrom = {
+	"message": "المقدمة من"
+};
+Language.form.SubmittingProcess = {
+	"message": "جاري الإرسال"
+};
+Language.form.TranscriptMessage = {
+	"message": "لا تتردد في إدخال بريدك الإلكتروني وإرسال نسخة من هذه المحادثة إلى البريد الوارد."
+};
+Language.form.any = {
+	"message": "أي"
+};
+Language.form.chatEnded = {
+	"message": "انتهت محادثتك"
+};
+Language.form.department = {
+	"message": "القسم"
+};
+Language.form.email = {
+	"message": "البريد الإلكتروني"
+};
+Language.form.errorSaving = {
+	"message": "فشلت عملية الحفظ. يرجي المحاولة مرة أخرى"
+};
+Language.form.message = {
+	"message": "رسالة"
+};
+Language.form.name = {
+	"message": "الإسم"
+};
+Language.form.sendAgain = {
+	"message": "أرسل مرة أخرى"
+};
+Language.form.visitButton = {
+	"message": "قم بزيارة tawk.to"
+};
+
+
+Language.home = Language.home || {};
+
+Language.home.banner_image = {
+	"message": "صورة الشعار"
+};
+Language.home.chat_button = {
+	"message": "محادثة جديدة"
+};
+Language.home.chat_input = {
+	"message": "أكتب هنا و إضغط على زر الإدخال.."
+};
+Language.home.heading_main = {
+	"message": "أهلاً و سهلاً"
+};
+Language.home.heading_sub = {
+	"message": "هل تحتاج إلى مساعدة؟ إبحث  عن الإجابات في مركز المساعدة أو تواصل معنا:"
+};
+Language.home.kb_search = {
+	"message": "البحث عن إجابات"
+};
+Language.home.logo_image = {
+	"message": "صورة الرمز"
+};
+
+
+Language.kb = Language.kb || {};
+
+Language.kb.article_image = {
+	"message": "صورة المقال"
+};
+Language.kb.article_rating = {
+	"message": "هل كانت هذه المقالة مفيدة؟"
+};
+Language.kb.article_rating_count = {
+	"message": "#totalLikes من #totalVotes أعجبهم هذا المقال.",
+	"vars": [
+		"totalLikes",
+		"totalVotes"
+	]
+};
+Language.kb.author_profile_image = {
+	"message": "صورة الملف الشخصي للكاتب"
+};
+Language.kb.clear_search = {
+	"message": "مسح البحث"
+};
+Language.kb.downvote_rating_button = {
+	"message": "كلا"
+};
+Language.kb.help_center = {
+	"message": "مركز تعليمات"
+};
+Language.kb.negative_rating = {
+	"message": "سلبي"
+};
+Language.kb.positive_rating = {
+	"message": "إيجابي"
+};
+Language.kb.recent_searches = {
+	"message": "عمليات البحث الأخيرة"
+};
+Language.kb.search_fail_description = {
+	"message": "الرجاء إعادة المحاولة."
+};
+Language.kb.search_fail_title = {
+	"message": "لم يتم العثور على نتائج البحث"
+};
+Language.kb.search_placeholder = {
+	"message": "البحث عن إجابات"
+};
+Language.kb.search_results = {
+	"message": "نتائج البحث"
+};
+Language.kb.show_all_results = {
+	"message": "عرض جميع النتائج (#num)",
+	"vars": [
+		"num"
+	]
+};
+Language.kb.submit_search = {
+	"message": "إرسال البحث."
+};
+Language.kb.upvote_rating_button = {
+	"message": "أجل"
+};
+Language.kb.view_full = {
+	"message": "العرض بصورة كاملة."
+};
+
+
+Language.menu = Language.menu || {};
+
+Language.menu.add_chat_to_your_website = {
+	"message": "أضف الدردشة إلى موقعك"
+};
+Language.menu.change_name = {
+	"message": "تغيير الاسم"
+};
+Language.menu.email_transcript = {
+	"message": "أرسل نسخة عبر بالبريد الإلكتروني"
+};
+Language.menu.end_chat_session = {
+	"message": "إنهاء جلسة المحادثة هذه"
+};
+Language.menu.popout_widget = {
+	"message": "واجهة منبثقة"
+};
+Language.menu.sound_off = {
+	"message": "إيقاف الصوت"
+};
+Language.menu.sound_on = {
+	"message": "تشغيل الصوت"
+};
+
+
+Language.months = Language.months || {};
+
+Language.months['0'] = {
+	"message": "كانون الثاني/يناير"
+};
+Language.months['1'] = {
+	"message": "شباط/فبراير"
+};
+Language.months['10'] = {
+	"message": "تشرين الثاني/نوفمبر"
+};
+Language.months['11'] = {
+	"message": "كانون الأول/ديسمبر"
+};
+Language.months['2'] = {
+	"message": "آذار/مارس"
+};
+Language.months['3'] = {
+	"message": "نيسان/أبريل"
+};
+Language.months['4'] = {
+	"message": "أيار/مايو"
+};
+Language.months['5'] = {
+	"message": "حزيران/يونيو"
+};
+Language.months['6'] = {
+	"message": "تموز/يوليو"
+};
+Language.months['7'] = {
+	"message": "آب/أغسطس"
+};
+Language.months['8'] = {
+	"message": "أيلول/سبتمبر"
+};
+Language.months['9'] = {
+	"message": "تشرين الأول/أكتوبر"
+};
+
+
+Language.notifications = Language.notifications || {};
+
+Language.notifications.dismiss_alert = {
+	"message": "تجاهل التنبيه"
+};
+Language.notifications.maximum_file_upload_warning = {
+	"message": "عذراً، نقل الملفات يقتصر على #limitFileNumber ملفات في وقت واحد. الرجاء إعادة المحاولة بخصوص الملف (الملفات) التالية:",
+	"vars": [
+		"limitFileNumber"
+	]
+};
+Language.notifications.maximum_size_upload_warning = {
+	"message": "عذراً، نقل الملفات يقتصر على #limitFileSize للملف الواحد. الرجاء ضغط الملف (الملفات) التالية والمحاولة مجددا.",
+	"vars": [
+		"limitFileSize"
+	]
+};
+Language.notifications.reconnecting = {
+	"message": "إعادة الاتصال"
+};
+Language.notifications.retry = {
+	"message": "إعادة المحاولة"
+};
+
+
+Language.overlay = Language.overlay || {};
+
+Language.overlay.cookiesOff = {
+	"message": "لا يمكنك استخدام هذه الدردشة لأن وظيفة ملف تعريف الإرتباط في متصفح الإنترنت لديك مطفئة. رجاءً قم بتشغيل و تحديث الصفحة."
+};
+Language.overlay.inactive = {
+	"message": "انقر هنا لاستئناف المحادثة"
+};
+Language.overlay.maintenance = {
+	"message": "خدمة الدردشة تحت الصيانة"
+};
+Language.overlay.tawkContent = {
+	"message": "هذه الواجهة مدعومة من قبل tawk.to وهو تطبيق مراسلة مجاني يسمح لك بمراقبة زوار موقعك والتواصل معهم."
+};
+
+
+Language.rollover = Language.rollover || {};
+
+Language.rollover.back = {
+	"message": "العودة الى الخلف"
+};
+Language.rollover.chatMenu = {
+	"message": "القائمة"
+};
+Language.rollover.emailTranscriptOption = {
+	"message": "أرسل نسخة عبر البريد الإلكتروني"
+};
+Language.rollover.end = {
+	"message": "إنهاء المحادثة"
+};
+Language.rollover.knowledgeBase = {
+	"message": "قاعدة المعرفة"
+};
+Language.rollover.maximize = {
+	"message": "تكبير"
+};
+Language.rollover.minimize = {
+	"message": "تصغير"
+};
+Language.rollover.negativeRating = {
+	"message": "قيّم هذه المحادثة: -1"
+};
+Language.rollover.popOut = {
+	"message": "شاشة منبثقة"
+};
+Language.rollover.positiveRating = {
+	"message": "قيّم هذه المحادثة: +1"
+};
+Language.rollover.rateChat = {
+	"message": "قيّم هذه الدردشة."
+};
+Language.rollover.resendMessage = {
+	"message": "إعادة إرسال الرسالة"
+};
+Language.rollover.resize = {
+	"message": "تغيير الحجم"
+};
+Language.rollover.screenShare = {
+	"message": "مشاركة الشاشة"
+};
+Language.rollover.uploadFile = {
+	"message": "قم بتحميل الملف"
+};
+Language.rollover.videoCall = {
+	"message": "مكالمة فيديو"
+};
+Language.rollover.voiceCall = {
+	"message": "مكالمة صوتية"
+};
+
+
+Language.routes = Language.routes || {};
+
+Language.routes.all_agents = {
+	"message": "جميع الوكلاء"
+};
+Language.routes.conversations = {
+	"message": "المحادثات"
+};
+Language.routes.load_more = {
+	"message": "حمّل أكثر"
+};
+
+
+Language.status = Language.status || {};
+
+Language.status.away = {
+	"message": "بعيد"
+};
+Language.status.offline = {
+	"message": "غير متصل"
+};
+Language.status.online = {
+	"message": "متصل"
+};
+
+
+
+
+Language.chat = Language.chat || {};
+
+Language.chat.hours = {
+	"pluralVars": [
+		"num"
+	],
+	"message": {
+		"zero": "#num صفر ساعة",
+		"one": "#num ساعة",
+		"two": "#num ساعتان",
+		"few": "#num بضعة ساعات",
+		"many": "#num عدة ساعات",
+		"other": "#num ساعات أخرى"
+	}
+};
+Language.chat.messageQueuedText = {
+	"pluralVars": [
+		"t"
+	],
+	"message": {
+		"zero": "وقت الانتظار حوالي #strongStart #t صفر دقیقة #strongEnd",
+		"one": "وقت الانتظار حوالي #strongStart #t دقیقة #strongEnd",
+		"two": "وقت الانتظار حوالي #strongStart #t دقيقتين #strongEnd",
+		"few": "وقت الانتظار #strongStart #t بضعة دقائق #strongEnd",
+		"many": "وقت الانتظار #strongStart #t عدة دقائق #strongEnd",
+		"other": "وقت الانتظار حوالي #strongStart #t دقائق أخرى #strongEnd"
+	},
+	"vars": [
+		"strongStart",
+		"strongEnd"
+	]
+};
+Language.chat.minutes = {
+	"pluralVars": [
+		"num"
+	],
+	"message": {
+		"zero": "#num صفر دقيقة",
+		"one": "#num دقيقة",
+		"two": "#num دقيقتان",
+		"few": "#num بضعة دقائق",
+		"many": "#num عدة دقائق",
+		"other": "#num دقيقة أخرى"
+	}
+};
+Language.chat.newMessage = {
+	"pluralVars": [
+		"num"
+	],
+	"message": {
+		"zero": "#num صفر رسائل جديدة",
+		"one": "#num رسالة جديدة",
+		"two": "#num رسالتان جديدتان",
+		"few": "#num بضعة رسائل جديدة",
+		"many": "#num عدة رسائل جديدة",
+		"other": "#num رسائل جديدة أخرى"
+	}
+};
+Language.chat.seconds = {
+	"pluralVars": [
+		"num"
+	],
+	"message": {
+		"zero": "#num صفر ثانية",
+		"one": "#num ثانية",
+		"two": "#num ثانيتان",
+		"few": "#num بضعة ثواني",
+		"many": "#num عدة ثواني"
+	}
+};
+
+
+global.$_Tawk.language = Language;})(window);

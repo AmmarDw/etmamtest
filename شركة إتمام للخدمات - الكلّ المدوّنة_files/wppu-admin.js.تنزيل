@@ -1,0 +1,775 @@
+<!DOCTYPE html>
+<html lang="ar">
+   <head>
+       
+       <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KTDJRWT');</script>
+<!-- End Google Tag Manager -->
+
+
+
+
+
+		
+<!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '1933895050316232');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=1933895050316232&ev=PageView&noscript=1"
+/></noscript>
+
+ 
+
+      <!--Start of Google Analytics script-->
+            <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-158543303-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-158543303-1');
+</script>
+            <!--End of Google Analytics script-->
+
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="format-detection" content="telephone=no">
+
+
+      <meta name="description" content="">
+      <meta name="keywords" content="">
+
+      <meta name="csrf-token" content="xsEvSL4Pprf6hcAFJC6D2UdKTgUoh3Er9Ry03Tl0">
+      <title>شركة إتمام للخدمات </title>
+      <!-- favicon -->
+      <link rel="shortcut icon" href="https://www.etmaam.com.sa/assets/front/img/619d47e769770.png" type="image/x-icon">
+      <!-- bootstrap css -->
+      <link rel="stylesheet" href="https://www.etmaam.com.sa/assets/front/css/bootstrap.min.css">
+      <!-- plugin css -->
+      <link rel="stylesheet" href="https://www.etmaam.com.sa/assets/front/css/plugin.min.css">
+
+      <!-- main css -->
+      <link rel="stylesheet" href="https://www.etmaam.com.sa/assets/front/css/style.css">
+
+      <!-- common css -->
+      <link rel="stylesheet" href="https://www.etmaam.com.sa/assets/front/css/common-style.css">
+      
+      <link rel="stylesheet" id='wppu-css' href="https://www.etmaam.com.sa/assets/front/css/wppu-admin.css?ver=1.0.0" media='all' />
+      
+
+
+
+
+
+
+      
+            <style>
+      #wppu-object-wrapper {
+    position: sticky !important;
+      }
+        .back-to-top.show {
+            right: auto;
+            left: 20px;
+        }
+      </style>
+                  
+      
+      
+   <style>
+    .top-footer-section {
+    padding: 70px 0 40px 0 !important;
+    border-bottom: 1px solid #9d9d9d !important;
+}
+.sheild {
+    text-align: start !important;
+}
+
+.copyright-section {
+    padding: 15px 0 15px !important;
+    font-size: 14px !important;
+    line-height: 49px !important;
+}
+.footerWithVat{
+    text-align: end !important;
+}
+.footer-txt-copy {
+    font-size: 15px !important;
+    color: white !important;
+  
+}
+
+
+@media  only screen and (max-width:767px) {
+  .copyright-section {
+    font-size: 14px !important;
+    line-height: 26px !important;
+}
+   .sheild {
+    text-align: center !important;
+    margin-bottom: 5px;
+} 
+.footerWithVat {
+    text-align: center !important;
+}
+
+.footer-txt-copy {
+    font-size: 12px !important;
+
+}
+.support-contact-info {
+    margin-bottom: 0 !important;
+}
+.hero-txt {
+    padding: 280px 0 90px 0 !important ;
+}
+}
+      </style>
+      <!-- responsive css -->
+      <link rel="stylesheet" href="https://www.etmaam.com.sa/assets/front/css/responsive.css">
+      <!-- common base color change -->
+      <link href="https://www.etmaam.com.sa/assets/front/css/common-base-color.php?color=225476" rel="stylesheet">
+      <!-- base color change -->
+      <link href="https://www.etmaam.com.sa/assets/front/css/base-color.php?color=225476&amp;color1=0A3041" rel="stylesheet">
+
+      
+            <!-- RTL css -->
+      <link rel="stylesheet" href="https://www.etmaam.com.sa/assets/front/css/rtl.css">
+      <link rel="stylesheet" href="https://www.etmaam.com.sa/assets/front/css/pb-rtl.css">
+            <!-- jquery js -->
+      <script src="https://www.etmaam.com.sa/assets/front/js/jquery-3.3.1.min.js"></script>
+
+      
+      <!-- Start of Facebook Pixel Code -->
+              <!-- Facebook Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window,document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+ fbq('init', '1059373717930684'); 
+fbq('track', 'PageView');
+</script>
+<noscript>
+ <img height="1" width="1" 
+src="https://www.facebook.com/tr?id=1059373717930684&ev=PageView
+&noscript=1"/>
+</noscript>
+<!-- End Facebook Pixel Code -->
+
+
+
+<!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '1828510477603914');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=1828510477603914&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
+
+
+<script>
+!function (w, d, t) {
+  w.TiktokAnalyticsObject=t;var ttq=w[t]=w[t]||[];ttq.methods=["page","track","identify","instances","debug","on","off","once","ready","alias","group","enableCookie","disableCookie"],ttq.setAndDefer=function(t,e){t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}};for(var i=0;i<ttq.methods.length;i++)ttq.setAndDefer(ttq,ttq.methods[i]);ttq.instance=function(t){for(var e=ttq._i[t]||[],n=0;n<ttq.methods.length;n++)ttq.setAndDefer(e,ttq.methods[n]);return e},ttq.load=function(e,n){var i="https://analytics.tiktok.com/i18n/pixel/events.js";ttq._i=ttq._i||{},ttq._i[e]=[],ttq._i[e]._u=i,ttq._t=ttq._t||{},ttq._t[e]=+new Date,ttq._o=ttq._o||{},ttq._o[e]=n||{};var o=document.createElement("script");o.type="text/javascript",o.async=!0,o.src=i+"?sdkid="+e+"&lib="+t;var a=document.getElementsByTagName("script")[0];a.parentNode.insertBefore(o,a)};
+
+  ttq.load('CJRJFQ3C77UDVQ8J65KG');
+  ttq.page();
+}(window, document, 'ttq');
+</script>
+            <!-- End of Facebook Pixel Code -->
+
+      <!--Start of Appzi script-->
+            <!--End of Appzi script-->
+   </head>
+
+
+
+   <body  dir="rtl"  >
+       
+       
+    <div  class="mobile-serv d-block  d-md-none" style="position: fixed;
+    bottom: 22px;
+    right: 36%;
+    z-index: 99999;
+    border-radius: 5px;">
+        <a style="border-radius: 50px;" href="https://www.etmaam.com.sa/serv_req" class="boxed-btn shine">Request a Quote</a>
+       </div>
+        <!--====== PRELOADER PART START ======-->
+        <!---->
+        <div id="preloader">
+            <div class="loader revolve">
+                <!--<img src="https://www.etmaam.com.sa/assets/front/img/vid.gif" alt="">-->
+
+    
+        <div id="wppu-object-wrapper" class="lifebeauty" style="width:500px;height:500px;padding:13%;">
+				<div class="wppu-object-logo">
+				    
+				  					<img src="https://etmaam.com.sa/assets/front/img/14241353-min.png" class="officallogo" style=";">
+									</div>
+				<div class="wpppu-object-wrap" style="color:#235577;"></div>
+			</div>
+
+
+
+            </div>
+        </div>
+        <!---->
+        <!--====== PRELOADER PART ENDS ======-->
+
+
+
+
+
+      <!--   header area start   -->
+      <div class="header-area header-absolute ">
+         <div class="container">
+            <div class="support-bar-area">
+               <div class="row">
+                  <div class="col-lg-6 support-contact-info">
+                     <span class="address"><i class="far fa-envelope"></i> <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="a5cccbc3cae5c0d1c8c4c4c88bc6cac88bd6c4">[email&#160;protected]</a></span>
+                     <span class="phone"><i class="flaticon-chat"></i> 920022444</span>
+                  </div>
+                  <div class="col-lg-6 text-left">
+                     <ul class="social-links">
+                                                <li><a target="_blank" href="https://wa.me/966533030283"><i class="fab fa-whatsapp"></i></a></li>
+                                                <li><a target="_blank" href="https://www.twitter.com/etmaam2"><i class="fab fa-twitter iconpicker-component"></i></a></li>
+                                                <li><a target="_blank" href="https://www.facebook.com/etmaam2/"><i class="fab fa-facebook-f iconpicker-component"></i></a></li>
+                                                <li><a target="_blank" href="https://www.linkedin.com/company/etmaam2"><i class="fab fa-linkedin-in iconpicker-component"></i></a></li>
+                                                <li><a target="_blank" href="https://www.youtube.com/user/modhaf"><i class="fab fa-youtube"></i></a></li>
+                                                <li><a target="_blank" href="https://www.instagram.com/etmaam2"><i class="fab fa-instagram iconpicker-component"></i></a></li>
+                                                <li><a target="_blank" href="https://www.tiktok.com/@etmaam2"><i class="fab fa-tumblr-square"></i></a></li>
+                                                <li><a target="_blank" href="https://t.me/etmaam"><i class="fab fa-telegram-plane"></i></a></li>
+                                                <li><a target="_blank" href="https://www.snapchat.com/add/etmaam"><i class="fab fa-snapchat-ghost iconpicker-component"></i></a></li>
+                                            </ul>
+                    
+                    
+                    <!--OLD CHANGE LANGAUGE SAVE IT-->
+                    <!-- -->
+                    <!--   <div class="language">-->
+                    <!--      <a class="language-btn" href="#"><i class="flaticon-worldwide"></i> العربيّة</a>-->
+                    <!--      <ul class="language-dropdown">-->
+                    <!--        -->
+                    <!--        <li><a href='https://www.etmaam.com.sa/changelanguage/en'>English</a></li>-->
+                    <!--        -->
+                    <!--        <li><a href='https://www.etmaam.com.sa/changelanguage/ar'>العربيّة</a></li>-->
+                    <!--        -->
+                    <!--      </ul>-->
+                    <!--   </div>-->
+                    <!-- -->
+                
+
+                                                                    <div class="language">
+                                                                                                            <a href="https://www.etmaam.com.sa/changelanguage/en"><i class="flaticon-worldwide"></i> <span style="padding-right: 2px;">
+                                            English
+                                        </span></a>
+                                                                                                                                                                    </div>
+                        
+
+                
+                     
+
+                                                                                      
+
+                  </div>
+               </div>
+            </div>
+
+
+            <div class="header-navbar">
+    <div class="row">
+       <div class="col-lg-2 col-6">
+          <div class="logo-wrapper">
+             <a href="https://www.etmaam.com.sa"><img class="officallogo lazy" data-src="https://www.etmaam.com.sa/assets/front/img/619d47f38d315.png" alt=""></a>
+          </div>
+       </div>
+       <div class="col-lg-10 col-6 text-left position-static">
+          <ul class="main-menu" id="mainMenu">
+                              
+
+                                      
+                         
+                         <li><a href="https://www.etmaam.com.sa" target="_self">الصفحة الرئيسية</a></li>
+
+                                      
+                              
+
+                                                               <li class="dropdown">
+                             
+                             <a class="dropdown-btn" href="#" target="_self">من نحن؟</a>
+
+                             <ul class="dropdown-lists">
+                                 
+                                                                      
+                                     <li >
+                                         <a  href="/about" target="_self">نبذة عنا</a>
+
+                                         
+                                                                                  
+
+                                     </li>
+                                                                      
+                                     <li >
+                                         <a  href="https://www.etmaam.com.sa/blogs" target="_self">آخر الأخبار</a>
+
+                                         
+                                                                                  
+
+                                     </li>
+                                                                      
+                                     <li >
+                                         <a  href="https://etmaam.com.sa/assets/front/files/profile.pdf" target="_blank">دليل الخدمات</a>
+
+                                         
+                                                                                  
+
+                                     </li>
+                                                                      
+                                     <li >
+                                         <a  href="/banks/" target="_self">حساباتنا البنكية</a>
+
+                                         
+                                                                                  
+
+                                     </li>
+                                                                  
+                             </ul>
+
+                         </li>
+                                      
+                              
+
+                                                               <li class="dropdown">
+                             
+                             <a class="dropdown-btn" href="#" target="_self">مركز المساعدة</a>
+
+                             <ul class="dropdown-lists">
+                                 
+                                                                      
+                                     <li >
+                                         <a  href="https://www.etmaam.com.sa/contact" target="_self">اتصل بنا</a>
+
+                                         
+                                                                                  
+
+                                     </li>
+                                                                      
+                                     <li >
+                                         <a  href="https://www.etmaam.com.sa/faq" target="_self">الأسئلة الشائعة</a>
+
+                                         
+                                                                                  
+
+                                     </li>
+                                                                      
+                                     <li >
+                                         <a  href="https://www.etmaam.com.sa/downloads" target="_self">مركز التحميلات</a>
+
+                                         
+                                                                                  
+
+                                     </li>
+                                                                      
+                                     <li >
+                                         <a  href="https://www.etmaam.com.sa/career" target="_self">الوظائف</a>
+
+                                         
+                                                                                  
+
+                                     </li>
+                                                                  
+                             </ul>
+
+                         </li>
+                                      
+                              
+
+                                      
+                         
+                         <li><a href="https://www.etmaam.com.sa/packages" target="_self">الباقات</a></li>
+
+                                      
+                              
+
+                                      
+                         
+                         <li><a href="/join-us" target="_self">انضم إلينا</a></li>
+
+                                      
+             
+                          <li>
+                   
+                 <a href="/serv_req" class="boxed-btn">Request a Quote</a>
+                                  
+                 
+                 </li>
+                       </ul>
+          <div id="mobileMenu"></div>
+       </div>
+    </div>
+ </div>
+
+
+         </div>
+      </div>
+      <!--   header area end   -->
+
+
+              <!--   breadcrumb area start   -->
+        <div class="breadcrumb-area cases lazy" data-bg="https://www.etmaam.com.sa/assets/front/img/60518e00b635d.jpg" style="background-size:cover;">
+            <div class="container">
+            <div class="breadcrumb-txt">
+                <div class="row">
+                    <div class="col-xl-7 col-lg-8 col-sm-10">
+                        <span>404 الصّفحة غير موجودة</span>
+                        <h1>خطأ 404! يبدو أنّك في رابطٍ غير صحيح</h1>
+                        <ul class="breadcumb">
+                        <li><a style="position:relative;z-index:999;" href="https://www.etmaam.com.sa">Home</a></li>
+                        <li>404</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <div class="breadcrumb-area-overlay" style="background-color: #0A3041;opacity: 0.80;"></div>
+        </div>
+        <!--   breadcrumb area end    -->
+      
+
+      
+
+  <!--    Error section start   -->
+  <div class="error-section">
+     <div class="container">
+        <div class="row">
+           <div class="col-lg-6">
+              <div class="not-found">
+                 <img src="https://www.etmaam.com.sa/assets/front/img/404.png" alt="">
+              </div>
+           </div>
+           <div class="col-lg-6">
+              <div class="error-txt">
+                 <div class="oops">
+                    <img src="https://www.etmaam.com.sa/assets/front/img/oops.png" alt="">
+                 </div>
+                 <h2>You're lost...</h2>
+                 <p>The page you are looking for might have been moved, renamed, or might never existed.</p>
+                 <a href="https://www.etmaam.com.sa" class="go-home-btn">Back Home</a>
+              </div>
+           </div>
+        </div>
+     </div>
+  </div>
+  <!--    Error section end   -->
+
+
+      <!--    footer section start   -->
+      <footer class="footer-section">
+         <div class="container">
+                        <div class="top-footer-section">
+               <div class="row">
+                  <div class="col-lg-4 col-md-12">
+                     <div class="footer-logo-wrapper">
+                        <a href="https://www.etmaam.com.sa">
+                        <img class="lazy" data-src="https://www.etmaam.com.sa/assets/front/img/61a57fe06d7e4.png" alt="">
+                        </a>
+                     </div>
+                     <p class="footer-txt">
+                                                   شركة إتمام للخدمات <br> الأولى في المملكة في خدمات الأعمال للمؤسّسات والشّركات
+                                            </p>
+                  </div>
+                  <div class="col-lg-2 col-md-3">
+                     <h4>Useful Links</h4>
+                     <ul class="footer-links">
+                                                  <li><a href="https://etmaam.com.sa/serv_req/">اطلب خدمة</a></li>
+                                                  <li><a href="https://etmaam.com.sa/about">من نحن؟</a></li>
+                                                  <li><a href="https://etmaam.com.sa/faq">الأسئلة الشائعة</a></li>
+                                                  <li><a href="https://etmaam.com.sa/contact">اتّصل بنا</a></li>
+                                                  <li><a href="https://etmaam.com.sa/join-us">انضم إلينا</a></li>
+                                             </ul>
+                  </div>
+                  <div class="col-lg-3 col-md-4">
+                     <h4>Newsletter</h4>
+                     <form class="footer-newsletter" id="footerSubscribeForm" action="https://www.etmaam.com.sa/subscribe" method="post">
+                       <input type="hidden" name="_token" value="xsEvSL4Pprf6hcAFJC6D2UdKTgUoh3Er9Ry03Tl0">                       <p>اشترك في بوّابة آخر الأخبار ، لتصلك نشرة الأعمال وأحدث العروض</p>
+                       <input type="email" name="email" value="" placeholder="Enter Email Address" />
+                       <p id="erremail" class="text-danger mb-0 err-email"></p>
+                       <button type="submit">Subscribe</button>
+                     </form>
+                  </div>
+                  <div class="col-lg-3 col-md-5">
+                     <h4>Contact Us</h4 >
+                     <div class="footer-contact-info">
+                        <ul>
+                           <li><i class="fa fa-home"></i>
+                                                        <span>
+                                                                المنطقة الوسطى - الرّياض - الروضة 13211
+                                                                    <br>
+                                                                                                المنطقة الشّرقية - الخبر - الراكة الجنوبية 34216
+                                                                    <br>
+                                                                                                المنطقة الجنوبيّة - محايل عسير - البلد 63715
+                                                                                            </span>
+                           </li>
+
+                           <li><i class="fa fa-phone"></i>
+                                                        <span>
+                                                                920022444
+                                                                    ,
+                                                                                                00966114719541
+                                                                                            </span>
+                          </li>
+                           <li><i class="far fa-envelope"></i>
+                                                        <span>
+                                                                <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="157c7b737a557061787474783b767a783b6674">[email&#160;protected]</a>
+                                                                                            </span>
+                           </li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            
+                       <div class="copyright-section copy-2">
+                <div class="row">
+                    <div class="col-12 col-md-8 ">
+                        <div class="sheild"> <i class="fas fa-shield-alt m-1"></i>
+              
+                                   إتمام للخدمات شركةٌ موثّقةٌ لدى وزارة التّجارة، بسجلٍّ تجاريٍّ رقم 1010803431
+
+              
+               </div>
+                    </div>
+                    <div class="col-12 col-md-4  ">
+                        <div class="footerWithVat"><a class="vatLink"
+                                href="https://etmaam.com.sa/assets/front/files/vat.pdf"
+                                target="_blank"> <img class="lazy" src="assets/front/img/VAT.png" width="30px" alt=""></a>
+                               <a class=""
+                                href="https://maroof.sa/210160"
+                                target="_blank">
+                             <img  class="lazy" width="100px" src="assets/front/img/ma3rof.png" alt="">
+                               </a>
+                                </div>
+                    </div>
+                    <div class="col-12   ">
+                        <p class="footer-txt-copy text-center">
+                     All rights reserved to Etmam Services © 2022
+                        </p>
+                    </div>
+                </div>
+            </div>
+                     </div>
+      </footer>
+      <!--    footer section end   -->
+
+
+      
+      <div id="WAButton"></div>
+
+
+        
+      <!-- back to top area start -->
+      <div class="back-to-top">
+         <i class="fas fa-chevron-up"></i>
+      </div>
+      <!-- back to top area end -->
+
+
+      
+            
+
+      
+            
+
+            
+      
+
+      <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+        var mainbs = [];
+        var mainurl = "https://www.etmaam.com.sa";
+        var vap_pub_key = "BJ2QZcsp2ULf2OtWSU3mjwP_cQH1BVfbd3KonuFqqMTrDyJeWPv0AdP4noBjeHNxca4PELXeiPMbcE_wvFB6YSA";
+        var rtl = 1;
+      </script>
+      
+      <!--loader js-->
+      <script src="https://www.etmaam.com.sa/assets/front/js/wppu-preloader-unlimited/admin/js/wppu-admin.js?ver=1.0.0"  id='wppu-js'></script>
+
+      <!-- popper js -->
+      <script src="https://www.etmaam.com.sa/assets/front/js/popper.min.js"></script>
+      <!-- bootstrap js -->
+      <script src="https://www.etmaam.com.sa/assets/front/js/bootstrap.min.js"></script>
+      <!-- Plugin js -->
+      <script src="https://www.etmaam.com.sa/assets/front/js/plugin.min.js"></script>
+      <!-- main js -->
+      <script src="https://www.etmaam.com.sa/assets/front/js/main.js"></script>
+      <!-- pagebuilder custom js -->
+      <script src="https://www.etmaam.com.sa/assets/front/js/common-main.js" defer></script>
+
+
+
+<!--LOAD JS OR CSS TO IMPROVE SPEED -->
+<script>
+//     window.onload = function(){
+//   $.getScript("https://etmaam.com.sa/assets/front/js/packagesrules.js");
+//     $.getScript("https://etmaam.com.sa/assets/front/js/axios.min.js");
+
+// }
+</script>
+
+
+      
+              <script type="text/javascript">
+            var whatsapp_popup = 0;
+            var whatsappImg = "https://www.etmaam.com.sa/assets/front/img/whatsapp.svg";
+            $(function () {
+                $('#WAButton').floatingWhatsApp({
+                    phone: "+966533030283", //WhatsApp Business phone number
+                    headerTitle: "أهلاً بك في إتمام", //Popup Title
+                    popupMessage: `يرجى منك التّكرّم بشرح كيف نستطيع أن نخدمك؟<br />
+علماً أنّ أوقات الدّوام من 8 صباحاً إلى 5 مساءً`, //Popup Message
+                    showPopup: whatsapp_popup == 1 ? true : false, //Enables popup display
+                    buttonImage: '<img src="' + whatsappImg + '" />', //Button Image
+                    position: "left" //Position: left | right
+
+                });
+            });
+        </script>
+                  
+        
+        
+      <!--Start of subscribe functionality-->
+      <script>
+        $(document).ready(function() {
+          $("#subscribeForm, #footerSubscribeForm").on('submit', function(e) {
+            // console.log($(this).attr('id'));
+
+            e.preventDefault();
+
+            let formId = $(this).attr('id');
+            let fd = new FormData(document.getElementById(formId));
+            let $this = $(this);
+
+            $.ajax({
+              url: $(this).attr('action'),
+              type: $(this).attr('method'),
+              data: fd,
+              contentType: false,
+              processData: false,
+              success: function(data) {
+                // console.log(data);
+                if ((data.errors)) {
+                  $this.find(".err-email").html(data.errors.email[0]);
+                } else {
+                  toastr["success"]("You have been subscribed successfully!");
+                  $this.trigger('reset');
+                  $this.find(".err-email").html('');
+                }
+              }
+            });
+          });
+
+
+        });
+      </script>
+      <!--End of subscribe functionality-->
+
+      <!--Start of Tawk.to script-->
+          
+    <!--Check Langauge Tawk.to  -->
+              <!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/5f5f7bcf4704467e89eed175/default';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
+       	   <!-- END Check Langauge Tawk.to  -->
+
+            <!--End of Tawk.to script-->
+
+      <!--Start of AddThis script-->
+            <!-- Hotjar Tracking Code for https://www.etmaam.com.sa/ -->
+<script>
+    (function(h,o,t,j,a,r){
+        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        h._hjSettings={hjid:2890500,hjsv:6};
+        a=o.getElementsByTagName('head')[0];
+        r=o.createElement('script');r.async=1;
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        a.appendChild(r);
+    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+</script>
+            <!--End of AddThis script-->
+      
+      
+      
+
+
+   
+<!--script>-->
+<!--    document.onkeydown = function (e) {-->
+<!--        if (e.ctrlKey &&-->
+<!--            (e.keyCode === 67 ||-->
+<!--                e.keyCode === 86 ||-->
+<!--                e.keyCode === 85 ||-->
+<!--                e.keyCode === 117)) {-->
+<!--            alert('Not allowed to copy content!');-->
+<!--            return false;-->
+<!--        } else if (e.ctrlKey && e.shiftKey && e.keyCode === 73) {-->
+<!--            // Ctrl+Shift+I (inspect element) - Disable-->
+<!--            alert('Inspect element is disabled');-->
+<!--            return false;-->
+<!--        } else if (e.ctrlKey && e.shiftKey && e.keyCode === 74) {-->
+<!--            // Ctrl+Shift+J (JavaScript console) - Disable-->
+<!--            alert('JavaScript console is disabled');-->
+<!--            return false;-->
+<!--        } else if (e.keyCode === 123) {-->
+<!--            // F12 (Open Developer Tools) - Disable-->
+<!--            alert('Developer tools are disabled');-->
+<!--            return false;-->
+<!--        } else {-->
+<!--            return true;-->
+<!--        }-->
+<!--    };-->
+
+<!--    document.oncontextmenu = function () {-->
+<!--        // Disable right-click context menu-->
+<!--        alert('Right-click context menu is disabled');-->
+<!--        return false;-->
+<!--    };-->
+<!--</script>-->
+           </body>
+</html>

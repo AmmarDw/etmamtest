@@ -1,0 +1,401 @@
+body{
+  color: #0a3041;
+}
+
+.headTitle{
+  line-height: 0.8;
+  place-items: center;
+}
+
+@keyframes rotation {
+  0%   {transform: rotate(0deg);
+        /* opacity: 0; */
+      }
+  100% {transform: rotate(360deg);
+        /* opacity: 1; */
+      }
+} 
+
+@keyframes bringFromRight {
+  0%   {transform: translate(100px, 0);
+        opacity: 0;}
+  100% {transform: translate(0, 0);
+        opacity: 1;}
+} 
+
+@keyframes bringFromLeft {
+  0%   {transform: translate(-200px, 0);
+        opacity: 0;}
+  100% {transform: translate(0, 0);
+        opacity: 1;}
+} 
+
+.headTitle img{
+  animation: rotation 1s 1;
+}
+
+.headTitle{
+  animation: bringFromRight 1s 1;
+}
+
+.headTitle p{
+  font-size: 20px;
+}
+
+.card-body{
+  align-self: center;
+  padding: 0;
+}
+
+li .card .img-fluid{
+  /* filter: blur(1.1px); */
+  width: auto;
+  height: 63% !important;
+  /* object-fit: cover; */
+}
+
+li .card .blog-img-wrapper{
+  justify-content: center;
+  /* text-align: center; */
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+li .card{
+  height: 7em;
+  background-color: #f7f7f7;
+  margin: 0 !important;
+}
+
+li .col-md-5{
+  height: 7em;
+  overflow: hidden;
+  padding: 0;
+}
+
+li .card h4{
+  margin: 0;
+}
+
+.lefter{
+  float: left;
+  animation: bringFromLeft 1s 1;
+  margin-left: 0;
+}
+
+.righter{
+  clear: both;
+  animation: bringFromRight 1s 1;
+  margin-right: 0;
+}
+
+ul{
+  padding: 0 !important;
+}
+
+ul li{
+  padding: 0 !important;
+}
+
+.single-blog .card .row{
+  margin: 0;
+}
+
+.description{
+  font-size: 20px;
+}
+
+.openingImg{
+  position: relative;
+}
+
+.openingImg img{
+  width: 100%;
+}
+
+.openingImg h2{
+  position: absolute; 
+  top: 0;
+  height: 100%;
+  padding: 20px;
+  color: white;
+  background: linear-gradient(to bottom, rgba(10, 48, 65, 0.9), rgba(10, 48, 65, 0.1));
+}
+
+.steps ol{
+  list-style-type: decimal;
+  font-size: 20px;
+  margin-top: 12px;
+  margin-right: 42px;
+  color: #1e4455bc;
+}
+
+.steps ol li p{
+  /* background: rgba(0, 17, 77, 0.744); */
+  /* box-shadow: 0 0 10px rgba(21, 102, 139, 0.5); */
+  /* border-radius: 10px; */
+  display: inline;
+  /* color: white; */
+  padding: 5px 10px;
+  line-height: 1.5;
+  /* transition: box-shadow 0.3s ease; Smooth transition for transform and shadow */
+}
+
+/* .steps ol li p:hover {
+  box-shadow: 5px 5px 15px rgba(49, 58, 103, 0.5); Add more shadow on hover
+} */
+
+.steps div{
+  margin-top: 30px;
+}
+
+.steps h4{
+  display: inline;
+  color: #0a3041;
+}
+
+.endService li{
+  font-size: 24px;
+}
+
+.visa{
+  height: 100%;
+}
+
+.imgCard{
+  padding: 0;
+  border: 10px solid white;
+  color: white;
+}
+
+.imgCard p{
+  font-size: 22px;
+}
+
+.imgCard h2{
+  border-bottom: 3px solid rgba(82, 186, 255, 0.9);
+}
+
+.imgCard img{
+  margin: 0;
+}
+
+.imgCard .background-layer{
+  /* background: linear-gradient(to bottom, #0a3041e1, #0a304146);  */
+  background: linear-gradient(to bottom, #0a3041f8, #0a304176); 
+  opacity: 0.7;
+  transition: all 0.5s;
+}
+
+.imgCard:hover .background-layer{
+  opacity: 1;
+}
+
+#recipeCarousel .card-body{
+  align-items: center;
+  height: 100%;
+  justify-content: space-around;
+}
+
+#recipeCarousel .card-body img{
+  height: 100px;
+}
+
+#recipeCarousel .card-body h4{
+  margin: 10px 15px 10px;
+}
+
+#recipeCarousel .carousel-item{
+  height: 220px;
+}
+
+.timelineStyle{
+  list-style-image: url("img/tuco.png");
+}
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+  .carousel-inner .carousel-item > div {
+      display: none;
+  }
+  .carousel-inner .carousel-item > div:first-child {
+      display: block;
+  }
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+  display: flex;
+}
+
+/* display 3 */
+@media (min-width: 768px) {
+  
+  .carousel-inner .carousel-item-right.active,
+  .carousel-inner .carousel-item-next {
+    transform: translateX(33.333%);
+  }
+  
+  .carousel-inner .carousel-item-left.active, 
+  .carousel-inner .carousel-item-prev {
+    transform: translateX(-33.333%);
+  }
+}
+
+.carousel-inner .carousel-item-right,
+.carousel-inner .carousel-item-left{ 
+transform: translateX(0);
+}
+
+
+
+
+
+
+
+
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: right;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+  background-color: #ccc;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+}
+
+
+
+.accordion:after {
+  content: '\02795'; /* Unicode character for "plus" sign (+) */
+  font-size: 13px;
+  color: #777;
+  float: left;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
+
+
+
+
+
+
+
+
+
+
+/* new index */
+h2{
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 35px;
+}
+
+h3{
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.minerTXT{
+  color: #1c4456ca;
+  margin-bottom: 24px;
+  line-height: 1.7;
+  font-size: 18px;
+}
+
+.formCont{
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for the entire form container */
+  padding: 0;
+}
+
+.services img{
+  width: 25%;
+  margin-bottom: 40px;
+}
+
+.services h4{
+  font-weight: 600;
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.services div{
+  padding: 10px;
+}
+
+
+
+
+.minimalist-form {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #fff;
+  box-shadow: none;
+}
+
+.minimalist-form input[type="text"],
+.minimalist-form input[type="tel"],
+.minimalist-form input[type="email"],
+.minimalist-form textarea {
+  font-size: 22px;
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 25px;
+  border: none;
+  border-bottom: 2px solid #3b4f5a74; /* Changed border color */
+  box-shadow: none;
+  outline: none; /* Optional: removes the highlight outline */
+}
+
+/* Change placeholder color */
+.minimalist-form ::placeholder {
+  color: #3b4f5a74; /* Placeholder text color */
+  opacity: 1; /* Firefox fix for consistent placeholder color */
+}
+
+.minimalist-form textarea {
+  resize: vertical;
+}
+
+.minimalist-form button {
+  width: 100%;
+  padding: 10px 20px;
+  border: none;
+  background-color: #0a3041;
+  color: #a2aec7;
+  cursor: pointer;
+  transition: transform 0.3s ease; /* Transition for the transform effect */
+}
+
+.minimalist-form button:hover {
+  transform: scale(1.1); /* Scale up button on hover */
+  background-color: #0a3041; /* Keep the background color the same */
+  color: white; /* Keep the text color the same */
+}
